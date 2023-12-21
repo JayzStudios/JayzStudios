@@ -17,24 +17,21 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin: 3rem;
   background-color: var(--secondary-color);
 }
 
 .j-studios 
 {
-  margin-top: 5rem;
+  margin-top: 2rem;
   border-radius: 5rem;
   padding: 1rem;
   background-color: var(--tertiary-color);
 }
 
-.j-icon
+.house-icon
 {
-  border-radius: 1rem;
-  background-color: black;
-  padding: 1rem;
-  margin: 1rem;
-  margin-right: 70rem;
+  cursor: pointer;
 }
 
 .home-container {

@@ -52,9 +52,12 @@ export default App;
 
 
 /*
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJ } from '@fortawesome/free-solid-svg-icons';
 <FontAwesomeIcon icon={faJ} shake size="2xs" style={{color: "#000000",}} />
 <FontAwesomeIcon icon="fa-solid fa-house" bounce size="sm" style={{color: "#000000",}} />
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+<FontAwesomeIcon icon={faArrowRight} beatFade size="xs" style={{color: "#000000",}} />
 
    const name = "React";
 

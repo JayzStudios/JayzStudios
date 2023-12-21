@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '../App.css';
-
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Login = (props) => 
 {
@@ -45,13 +45,15 @@ const Login = (props) =>
 
     return(
         <div className="login-container">
+            <FontAwesomeIcon className="house-icon" icon={faHouse} bounce size="sm" style={{color: "#000000",}} />
             <h3>Sign in to Jayz STUDIOS</h3>
             <div className="email-container">
             <input
                 value={email}
                 placeholder="Email: "
                 onChange={event => setEmail(event.target.value)}
-                className={"input-box"} />
+                className={"input-box"} 
+            />
             <label className="error-label-email">{emailError}</label>
 
             </div>
@@ -69,7 +71,8 @@ const Login = (props) =>
                 className={"input-button"}
                 type="button"
                 onClick={onButtonClick}
-                value={"Log in"} />
+                value={"Log in"}
+            />
         </div>
 
         </div>
