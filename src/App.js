@@ -15,7 +15,6 @@ const App = () => {
 
   return (
     <div className='app-container'>
-
    <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home email={email} loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
@@ -54,7 +53,7 @@ export default App;
 
 /*
 
-<FontAwesomeIcon icon="fa-regular fa-j" shake size="2xs" style={{color: "#000000",}} />
+<FontAwesomeIcon icon={faJ} shake size="2xs" style={{color: "#000000",}} />
 <FontAwesomeIcon icon="fa-solid fa-house" bounce size="sm" style={{color: "#000000",}} />
 
    const name = "React";

@@ -28,6 +28,15 @@
   background-color: var(--tertiary-color);
 }
 
+.j-icon
+{
+  border-radius: 1rem;
+  background-color: black;
+  padding: 1rem;
+  margin: 1rem;
+  margin-right: 70rem;
+}
+
 .home-container {
   flex-direction: column;
   display: flex;
