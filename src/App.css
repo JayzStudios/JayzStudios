@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #ff0000;
+  --secondary-color: #ffffff;
+  --tertiary-color: #000000;
+  --link-hover: #045CB4;
+  --peach-yellow: #F9DCAD; 
+  --accordion: #f1f1f1;
+  --accordion-hover: #444444;
+  --other-colors: #5D4FFF;
+  --greenish: #29562a;
+  --more-colors: #f2fff7;
+}
+
+.app-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--secondary-color);
+}
+
+.j-studios 
+{
+  margin-top: 5rem;
+  border-radius: 5rem;
+  padding: 1rem;
+  background-color: var(--tertiary-color);
+}
+
+.home-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultContainer, .historyItem { 
+  flex-direction: row;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyContainer {
+  flex-direction: column;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: flex-start;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+
+.login-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.email-container > .error-label-email {
+  color: var(--primary-color);
+  font-size: 12px;
+}
+
+.password-container > .error-label-password {
+  color: red;
+  font-size: 12px;
+}
+
+.input-box {
+  height: 48px;
+  width: 400px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding-left: 8px;
+}
+
+.copy-right
+{
+  margin: 2rem;
+  border-radius: 2rem;
+  color: var(--accordion-hover);
+}
